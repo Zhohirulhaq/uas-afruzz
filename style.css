@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; color: #333; scroll-behavior: smooth; }
+.container { padding: 60px 10%; text-align: center; }
+.bg-light { background: #f4f9f4; }
+
+nav { display: flex; justify-content: space-between; padding: 20px 10%; background: #fff; position: sticky; top: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 100; }
+.logo { font-size: 1.5rem; font-weight: bold; color: #2ecc71; }
+.logo span { color: #27ae60; }
+nav ul { display: flex; list-style: none; align-items: center; }
+nav ul li { margin-left: 20px; }
+nav a { text-decoration: none; color: #333; }
+.btn-nav { background: #27ae60; color: #fff; padding: 8px 15px; border-radius: 5px; }
+
+.hero { height: 80vh; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/images/hero.jpg') center/cover; display: flex; align-items: center; justify-content: center; color: #fff; text-align: center; }
+.hero h1 { font-size: 3rem; }
+.cta-button { display: inline-block; margin-top: 20px; padding: 15px 30px; background: #27ae60; color: #fff; text-decoration: none; border-radius: 5px; }
+
+.stats { display: flex; justify-content: space-around; padding: 40px; background: #2c3e50; color: #fff; }
+
+.about-flex { display: flex; gap: 40px; margin-top: 30px; text-align: left; }
+.team-grid { display: flex; gap: 10px; }
+.member img { width: 100px; height: 100px; object-fit: cover; border-radius: 10px; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 15px; border: 1px solid #ddd; text-align: left; }
+th { background: #27ae60; color: white; }
+
+.fac-list { margin-bottom: 30px; }
+.fac-list span { margin: 0 10px; background: #e8f5e9; padding: 5px 15px; border-radius: 20px; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.img-box { height: 150px; background: #ccc; border-radius: 5px; }
+
+footer { background: #2c3e50; color: #fff; padding: 40px 0; text-align: center; }

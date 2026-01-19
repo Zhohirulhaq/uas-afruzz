@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran - AgroSmart Farm</title>
+    <link rel="stylesheet" href="registation.css">
+</head>
+<body>
+
+    <div class="nav-simple"><a href="index.html">← Kembali ke Beranda</a></div>
+
+    <div class="main-wrapper">
+        <section class="form-container">
+            <h2>Pendaftaran Kunjungan Online</h2>
+            <form action="#">
+                <label>Nama Lengkap *</label>
+                <input type="text" required placeholder="Nama lengkap">
+
+                <div class="row">
+                    <div class="col">
+                        <label>Email *</label>
+                        <input type="email" required placeholder="email@domain.com">
+                    </div>
+                    <div class="col">
+                        <label>Nomor HP *</label>
+                        <input type="tel" required placeholder="08xxxxxx">
+                    </div>
+                </div>
+
+                <label>Asal Instansi/Sekolah</label>
+                <input type="text" placeholder="Nama sekolah/komunitas">
+
+                <div class="row">
+                    <div class="col">
+                        <label>Tanggal Kunjungan</label>
+                        <input type="date">
+                    </div>
+                    <div class="col">
+                        <label>Jumlah Peserta</label>
+                        <input type="number" placeholder="Jumlah">
+                    </div>
+                </div>
+
+                <label>Jenis Program</label>
+                <select>
+                    <option>Edukasi Smart Farming</option>
+                    <option>Workshop IoT Pertanian</option>
+                    <option>Wisata Kebun Organik</option>
+                </select>
+
+                <label>Pilih Lokasi</label>
+                <select>
+                    <option>Tasikmalaya</option>
+                    <option>Garut</option>
+                </select>
+
+                <label>Catatan Khusus</label>
+                <textarea rows="4"></textarea>
+
+                <div class="check">
+                    <input type="checkbox" required id="c"> <label for="c">Saya setuju dengan ketentuan pendaftaran.</label>
+                </div>
+
+                <button type="submit" class="btn-submit">Kirim Pendaftaran</button>
+            </form>
+        </section>
+
+        <aside class="sidebar">
+            <div class="card">
+                <h3>Contact Support</h3>
+                <p>📧 support@agrosmart.id</p>
+                <p>📞 0812-2334-4556 (Admin)</p>
+            </div>
+            <div class="card">
+                <h3>FAQ</h3>
+                <p><strong>1. Program apa saja?</strong><br>Smart Farming, IoT, & Wisata Organik.</p>
+                <p><strong>2. Minimal peserta?</strong><br>Minimal 15 orang.</p>
+                <p><strong>3. Ada guide?</strong><br>Ya, tersedia pemandu.</p>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
